@@ -464,3 +464,8 @@ a {
     color: #666;
     font-size: 14px;
 }
+/* Đảm bảo ảnh card hiển thị chiều cao đều và không bị méo */
+.card-img-custom {
+  height: 200px;
+  object-fit: cover;
+}
