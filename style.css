@@ -469,3 +469,12 @@ a {
   object-fit: cover;
   width: 100%;
 }
+/* Bắt buộc khối Khách sạn và Đánh giá tràn rộng ra 2 bên */
+#stay .container, 
+#stay .container-fluid,
+.section .container-fluid {
+    max-width: 95% !important;
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
