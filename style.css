@@ -465,7 +465,7 @@ a {
     font-size: 14px;
 }
 .card-img-custom {
-  height: 200px;
+  height: 260px; /* Tăng chiều cao lên 260px để ảnh to và rõ hơn */
   object-fit: cover;
   width: 100%;
 }
